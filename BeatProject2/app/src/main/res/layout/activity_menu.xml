@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#f7e4df">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="select music"
+                android:textColor="#8A0000"
+                android:textSize="40sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/pixeboy"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/easy"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textColor="#8A0000"
+                android:textSize="23sp"
+                app:backgroundTint="#FFFFFF"
+                android:text="(easy!) 설탕 요정의 춤"
+                android:fontFamily="@font/cookierunbold"/>
+            <Button
+                android:id="@+id/hard"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textColor="#8A0000"
+                android:textSize="23sp"
+                app:backgroundTint="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:text="(hard!) 베토벤 바이러스"
+                android:fontFamily="@font/cookierunbold"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="-  -  -  -  -  -  -  -  -  -"
+            android:textColor="#8A0000"
+            android:textSize="20sp"
+            android:fontFamily="@font/cookieregular"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="↑ : EASY 곡 미리듣기"
+            android:textColor="#8A0000"
+            android:textSize="20sp"
+            android:fontFamily="@font/cookieregular"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="↓ : HARD 곡 미리듣기"
+            android:textColor="#8A0000"
+            android:textSize="20sp"
+            android:fontFamily="@font/cookieregular"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="-  -  -  -  -  -  -  -  -  -"
+            android:textColor="#8A0000"
+            android:textSize="20sp"
+            android:fontFamily="@font/cookieregular"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="← : EASY 곡 플레이"
+            android:textColor="#8A0000"
+            android:textSize="20sp"
+            android:fontFamily="@font/cookieregular"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="→ : HARD 곡 플레이"
+            android:textColor="#8A0000"
+            android:textSize="20sp"
+            android:fontFamily="@font/cookieregular"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="-  -  -  -  -  -  -  -  -  -"
+            android:textColor="#8A0000"
+            android:textSize="20sp"
+            android:fontFamily="@font/cookieregular"/>
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
