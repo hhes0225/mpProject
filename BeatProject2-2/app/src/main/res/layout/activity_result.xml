@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/resultback">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Your score is..."
+            android:textSize="40sp"
+            android:fontFamily="@font/cookierunbold"/>
+        <TextView
+            android:id="@+id/resultScore"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10000!"
+            android:textSize="40sp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/cookierunbold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp">
+        <Button
+            android:id="@+id/gohome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Thank you for playing!"
+            android:background="#B99E97"
+            app:backgroundTint="#B99E97"
+            android:textSize="40sp"
+            android:textColor="#8A0000"
+            android:fontFamily="@font/pixeboy"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="touch button to end game !"
+            android:textSize="30sp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/pixeboy"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="or press center button !!"
+            android:textSize="30sp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/pixeboy"/>
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
